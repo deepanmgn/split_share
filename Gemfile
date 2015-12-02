@@ -13,6 +13,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
 gem 'bootswatch-rails'
 gem 'devise'
+gem 'simple_form'
 
 
 
