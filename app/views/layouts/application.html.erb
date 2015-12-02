@@ -9,6 +9,11 @@
 <body>
 <%= render "common/header" %>
 <div class="container">
+  <div class="flash_messages">
+    <p class="notice"><%= notice %></p>
+       <p class="alert"><%= alert %></p>
+
+  </div>
   <%= yield %>
 </div>
 
